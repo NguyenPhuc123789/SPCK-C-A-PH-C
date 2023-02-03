@@ -1,0 +1,39 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color: #f0ddf0;
+}
+header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 30px 10%;
+}
+header nav ul li{
+  list-style: none;
+  float: left;
+  padding: 10px 30px;
+  color: rgb(7, 7, 7);
+  cursor: pointer;
+  font-size: 22px;
+}
+header img{
+    width: 80px;
+    cursor: pointer;
+}
+header nav ul li:hover{
+    color:rgb(214, 25, 50);
+    border-bottom: 2px solid yellow;
+}
+header button{
+    border: 0;
+    padding: 5px 20px;
+    border-radius: 50px;
+    background-color: rgb(65, 14, 24);
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+}
